@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+    
+
+}
+
+label {
+    display: flex;
+    margin: 2px;
+    flex-direction: row;
+}
+
+form {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+input{
+    margin: 4px;
+}
+
+button{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+    border: none;
+    
+}
+
